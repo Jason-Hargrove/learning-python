@@ -38,7 +38,20 @@ mydict = {"one" : 1, "two" : 2}
 # print(mylist[::-1])
 
 # dictionaries are accessed via keys
+# print(mydict["one"])
 
 # ERROR: variables of different types cannot be combined
+# print("string type" + 123)
+# print("string type " + str(123))
 
 # Global vs. local variables in functions
+def someFunction():
+    global mystr
+    mystr = "def"
+    print(mystr)
+
+someFunction()
+print(mystr)
+
+del mystr
+print(mystr)
