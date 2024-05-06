@@ -21,9 +21,9 @@ def cube(x):
 
 # TODO: function with variable number of arguments
 
-func1()
-print(func1())
-print(func1)
+# func1()
+# print(func1())
+# print(func1)
 
 func2(10, 20)
 print(func2(10, 20))
