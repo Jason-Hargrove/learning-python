@@ -60,4 +60,4 @@ def file_info():
         filepath = os.path.join(directory, filename)
         if filepath.endswith(".txt"):
             total_size += os.path.getsize(filepath)
-    return print(total_size)
+    return total_size
