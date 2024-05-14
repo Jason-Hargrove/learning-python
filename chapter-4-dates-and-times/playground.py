@@ -6,7 +6,7 @@ def count_days(year, month, whichday):
     cal = calendar.monthcalendar(year, month)
     day_count = 0
 
-    # Count occurances of the specific day of the week
+    # Count occurrences of the specific day of the week
     for week in cal:
         if week[whichday] != 0: # The day of the week is in this week
             day_count += 1
@@ -14,7 +14,7 @@ def count_days(year, month, whichday):
     return day_count
 
 print(count_days(2025, 12, 0))
-#expected result: 5
+# Expected result: 5
 
 # Correctly print the name of tomorrow's day of the week
 today=date.today()
